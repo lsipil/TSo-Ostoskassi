@@ -15,14 +15,27 @@
             <li><a href="http://laursipi.users.cs.helsinki.fi/Ostoskassi/html-demo/Tuotelistademo.html">Tuotteet</a></li>
             <li><a href="http://laursipi.users.cs.helsinki.fi/Ostoskassi/html-demo/Ostoskoridemo.html">Ostoskori</a></li>
             <li><a href="Asiakastiedotdemo.html">Asiakastiedot</a></li>
-            <li><a href="Yllapidondemo.html">Ylläpito</a></li>
+            <li class="active"><a href="#">Ylläpito</a></li>
             <li><a href="Uloskirjautuminen.html">Kirjaudu ulos</a></li>
         </ul>
         <div>
-            <h2> Tervetuloa, tee tilauksia: </h2>
+            <h2> Lennot joille on tilauksia: </h2>
             <ol> 
-                <li><a>SL2935</a></li>
-                <li><a>SL1959</a></li>
+                <li>
+                    SL2935
+                    <div>
+                        <p>
+                        <button type="button" class="btn btn-xs btn-default">
+                        Tulosta lennon inventaario
+                        <span class="glyphicon glyphicon-envelope"></span></button>
+                        </p>
+                        <p>    
+                        <button type="button" class="btn btn-xs btn-default">
+                        Tulosta asiakaskohtaiset laskut
+                        <span class="glyphicon glyphicon-barcode"></span></button>
+                        </p>
+                    </div>
+                </li>
             </ol>
         </div>
     </body>
